@@ -1,5 +1,6 @@
 # xv6 Demand Paging and Swapping
-> im done with xv6 now tata bye bye
+> xv6 is my literal actual opp
+
 This repo implements demand paging, page replacement, and swapping for the xv6 operating system. Pages are allocated lazily on first access, evicted using FIFO when memory is full, and written to per-process swap files when dirty. A new `memstat()` system call exposes internal memory state for debugging and testing.
 
 Key files:
