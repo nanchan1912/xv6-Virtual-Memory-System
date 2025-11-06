@@ -44,8 +44,7 @@ $ usertests
 ```
 
 
-
-Protocol and behavior summary
+Summary
 ------------------------------
 - **Page fault handling**: on page fault, kernel checks if address is valid (text/data/heap/stack). Valid pages are allocated or loaded; invalid accesses terminate the process.
 - **FIFO replacement**: each resident page assigned a sequence number. When memory full, victim is the page with lowest sequence number in the faulting process's resident set.
